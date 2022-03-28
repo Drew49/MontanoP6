@@ -1,0 +1,19 @@
+﻿<Window x:Class="MontanoP6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MontanoP6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.543,0.469">
+        <Label Content="Enter Item Name" HorizontalAlignment="Left" Margin="109,75,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbxItemName" HorizontalAlignment="Left" Margin="94,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+        <Button x:Name="lblAddOne" Content="Add one item" HorizontalAlignment="Left" Margin="94,164,0,0" VerticalAlignment="Top" Width="129" Click="lblAddOne_Click"/>
+        <Button x:Name="btnAddMulti" Content="Add multiple (random)" HorizontalAlignment="Left" Margin="94,202,0,0" VerticalAlignment="Top" Width="129"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="94,238,0,0" VerticalAlignment="Top" Width="129"/>
+        <Label Content="Inventory List" HorizontalAlignment="Left" Margin="320,75,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lbxInventory" Height="200" RenderTransformOrigin="0.968,0.297" Margin="320,106,183,128"/>
+
+    </Grid>
+</Window>
