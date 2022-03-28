@@ -27,7 +27,7 @@ namespace MontanoP6
 
         public void Do()
         {
-            for (int i = 0; i < number; i++)
+            for (int i = 0; i < number - 1; i++)
             {
                 TargetList.Add(Item);
             }

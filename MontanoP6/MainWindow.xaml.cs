@@ -51,5 +51,11 @@ namespace MontanoP6
             lbxInventory.ItemsSource = inventoryItems;
             lbxInventory.Items.Refresh();
         }
+
+        private void btnUndo_Click(object sender, RoutedEventArgs e)
+        {
+            
+           
+        }
     }
 }
