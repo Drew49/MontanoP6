@@ -10,7 +10,7 @@
         <Label Content="Enter Item Name" HorizontalAlignment="Left" Margin="109,75,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="tbxItemName" HorizontalAlignment="Left" Margin="94,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
         <Button x:Name="lblAddOne" Content="Add one item" HorizontalAlignment="Left" Margin="94,164,0,0" VerticalAlignment="Top" Width="129" Click="lblAddOne_Click"/>
-        <Button x:Name="btnAddMulti" Content="Add multiple (random)" HorizontalAlignment="Left" Margin="94,202,0,0" VerticalAlignment="Top" Width="129"/>
+        <Button x:Name="btnAddMulti" Content="Add multiple (random)" HorizontalAlignment="Left" Margin="94,202,0,0" VerticalAlignment="Top" Width="129" Click="btnAddMulti_Click"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="94,238,0,0" VerticalAlignment="Top" Width="129"/>
         <Label Content="Inventory List" HorizontalAlignment="Left" Margin="320,75,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="lbxInventory" Height="200" RenderTransformOrigin="0.968,0.297" Margin="320,106,183,128"/>

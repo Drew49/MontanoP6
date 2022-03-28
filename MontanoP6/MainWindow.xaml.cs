@@ -41,5 +41,15 @@ namespace MontanoP6
             
             
         }
+
+        private void btnAddMulti_Click(object sender, RoutedEventArgs e)
+        {
+            Inventory item = new Inventory(tbxItemName.Text);
+            AddMultipleCommand multi = new AddMultipleCommand(inventoryItems, item);
+            multi.Do();
+            commands.Add(multi);
+            lbxInventory.ItemsSource = inventoryItems;
+            lbxInventory.Items.Refresh();
+        }
     }
 }
