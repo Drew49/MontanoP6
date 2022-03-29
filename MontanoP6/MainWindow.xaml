@@ -13,7 +13,7 @@
         <Button x:Name="btnAddMulti" Content="Add multiple (random)" HorizontalAlignment="Left" Margin="94,202,0,0" VerticalAlignment="Top" Width="129" Click="btnAddMulti_Click"/>
         <Button x:Name="btnUndo" Content="Undo" HorizontalAlignment="Left" Margin="94,238,0,0" VerticalAlignment="Top" Width="129" Click="btnUndo_Click"/>
         <Label Content="Inventory List" HorizontalAlignment="Left" Margin="320,75,0,0" VerticalAlignment="Top"/>
-        <ListBox x:Name="lbxInventory" Height="200" RenderTransformOrigin="0.968,0.297" Margin="320,106,183,128"/>
+        <ListBox x:Name="lbxInventory" RenderTransformOrigin="0.968,0.297" Margin="320,106,183,158"/>
         <Label Content="Montano Do/Undo Form" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.084,0.506" FontSize="22" FontWeight="Bold" Foreground="#FFEA2626"/>
 
     </Grid>
