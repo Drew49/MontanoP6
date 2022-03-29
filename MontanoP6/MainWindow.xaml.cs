@@ -54,7 +54,10 @@ namespace MontanoP6
 
         private void btnUndo_Click(object sender, RoutedEventArgs e)
         {
-            
+            commands[commands.Count - 1].Undo();
+            commands.RemoveAt(commands.Count - 1);
+            lbxInventory.ItemsSource = inventoryItems;
+            lbxInventory.Items.Refresh();
            
         }
     }

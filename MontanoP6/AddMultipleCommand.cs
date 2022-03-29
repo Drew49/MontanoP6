@@ -8,7 +8,7 @@ namespace MontanoP6
 {
     class AddMultipleCommand : IInventoryCommand
     {
-        private int number = new Random().Next(1,10);
+        private int number = new Random().Next(1,5);
 
         public Inventory Item { get; set; }
         public List<Inventory> TargetList { get; set; }
